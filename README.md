@@ -10,7 +10,7 @@ A production-ready tool that converts Figma designs into semantic HTML/CSS with 
 - **HTML5/CSS3** generation
 - **Local JSON caching**
 
-➡️ **See full generated output:**  
+**See full generated output:**  
 [output/](output/)
 
 ##  Known Limitations
@@ -61,13 +61,13 @@ The output renders closely to the original mock, with support for layout, spacin
 
 ## Features
 
-✔ **Generalizes to any Figma file** — Pattern-based component detection (not hardcoded)
+ 1. **Generalizes to any Figma file** — Pattern-based component detection (not hardcoded)
 
-✔ **High-fidelity CSS style extraction** — Colors, gradients, opacity, borders, multiple strokes, shadows, blurs, blend modes, line-height, letter spacing, font weights, rounded corners & masking
+ 2. **High-fidelity CSS style extraction** — Colors, gradients, opacity, borders, multiple strokes, shadows, blurs, blend modes, line-height, letter spacing, font weights, rounded corners & masking
 
-✔ **Semantic HTML** — Buttons → `<button>`, inputs → `<input>`, text → `<p>`, frames → `<div>`
+ 3. **Semantic HTML** — Buttons → `<button>`, inputs → `<input>`, text → `<p>`, frames → `<div>`
 
-✔ **Caching** — Figma file JSON is cached to improve speed and avoid API rate limits
+ 4. **Caching** — Figma file JSON is cached to improve speed and avoid API rate limits
 
 ## Setup
 
