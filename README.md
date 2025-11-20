@@ -153,29 +153,3 @@ After running the tool:
 - `output/styles.css`
 
 Open them directly in any browser.
-
-## Optional Bonus: GitHub Pages Hosting
-
-1. Copy your output files into `/docs`:
-   ```bash
-   cp output/index.html docs/index.html
-   cp output/styles.css docs/styles.css
-   ```
-
-2. Commit and push:
-   ```bash
-   git add docs/
-   git commit -m "Add GitHub Pages output"
-   git push
-   ```
-
-3. Enable GitHub Pages:
-   - Go to **Settings** → **Pages**
-   - Select **Source**: `/docs` folder
-   - Click **Save**
-
-4. Your live demo will be available at:
-   ```
-   https://your-username.github.io/figma-converter/
-   ```
-
