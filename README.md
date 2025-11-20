@@ -10,6 +10,9 @@ A production-ready tool that converts Figma designs into semantic HTML/CSS with 
 - **HTML5/CSS3** generation
 - **Local JSON caching**
 
+➡️ **See full generated output:**  
+[output/](output/)
+
 ##  Known Limitations
 
 This project focuses on static, pixel-accurate mocks. The following limitations are expected and transparently documented:
@@ -51,8 +54,6 @@ This tool takes a Figma file as input and produces:
 
 The output renders closely to the original mock, with support for layout, spacing, gradients, shadows, borders, typography, and components such as inputs and buttons.
 
-➡️ **See full generated output:**  
-[output/](output/)
 
 ## Preview
 
