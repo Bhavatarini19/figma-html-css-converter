@@ -13,6 +13,9 @@ cache/
 # Output files (optional - you may want to commit these)
 # output/
 
+# GitHub Pages output (should be committed)
+# docs/
+
 # IDE
 .vscode/
 .idea/

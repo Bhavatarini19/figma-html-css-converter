@@ -406,6 +406,42 @@ The generated files are:
 
 Both files can be opened directly in a browser without any server or build step.
 
+### Host on GitHub Pages (Optional Bonus)
+
+You can host the output on GitHub Pages for instant browser viewing:
+
+1. **Copy output to `docs/` folder:**
+   ```bash
+   # After running npm start, copy the output files:
+   cp output/index.html docs/index.html
+   cp output/styles.css docs/styles.css
+   ```
+
+2. **Push to GitHub:**
+   ```bash
+   git add docs/
+   git commit -m "Add GitHub Pages output"
+   git push
+   ```
+
+3. **Enable GitHub Pages:**
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under **Source**, select `/docs` folder
+   - Click **Save**
+
+4. **Access your live site:**
+   - Your site will be available at: `https://your-username.github.io/figma-converter/`
+   - GitHub Pages typically takes 1-2 minutes to deploy
+
+**Benefits:**
+- ✅ Instant browser viewing for reviewers
+- ✅ Professional delivery
+- ✅ Zero setup required
+- ✅ Shareable link
+
+**Note:** This is optional and not required for the assignment.
+
 ## Development
 
 ### Building
