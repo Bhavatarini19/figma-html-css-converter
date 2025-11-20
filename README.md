@@ -10,7 +10,7 @@ A production-ready tool that converts Figma designs into semantic HTML/CSS with 
 - **HTML5/CSS3** generation
 - **Local JSON caching**
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 This project focuses on static, pixel-accurate mocks. The following limitations are expected and transparently documented:
 
@@ -32,7 +32,7 @@ Inside/outside stroke alignment is approximated. Custom dash patterns cannot be 
 ### 6. Text Metrics
 Minor text-box differences (1–20px) may occur due to browser rendering vs. Figma's font engine.
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - **Full auto-layout engine** — Complete replication of Figma's layout system
 - **Image fill support** — Export image fills via Figma Images API
@@ -50,6 +50,9 @@ This tool takes a Figma file as input and produces:
 - `output/styles.css` — fully generated CSS
 
 The output renders closely to the original mock, with support for layout, spacing, gradients, shadows, borders, typography, and components such as inputs and buttons.
+
+➡️ **See full generated output:**  
+[output/](output/)
 
 ## Preview
 
@@ -173,6 +176,3 @@ Open them directly in any browser.
    https://your-username.github.io/figma-converter/
    ```
 
-## License
-
-This project is a take-home assignment submission.
