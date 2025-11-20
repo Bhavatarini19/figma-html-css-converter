@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.artboard {
+  position: relative;
+  width: 393px;
+  height: 852px;
+  background: white;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+}
+input, button, p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}
+input::placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+.node-1_75 { position: relative; left: 0px; top: 0px; width: 393px; height: 852px; background-color: rgba(250, 250, 250, 1); border-radius: 32px; overflow: hidden; }
+.node-1_110 { position: absolute; left: 0px; top: 831px; width: 393px; height: 21px; }
+.node-1_111 { position: absolute; left: 127.00000000000011px; top: 8px; width: 139px; height: 5px; background-color: rgba(44, 25, 77, 1); border-radius: 100px; transform: rotate(180deg); }
+.node-1_112 { position: absolute; left: 34.034091949463004px; top: 180.09091186523438px; height: 47.27272033691406px; color: rgba(54, 51, 65, 1); font-size: 48px; font-weight: 700; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Bold; text-align: left; white-space: nowrap; min-width: 122.66001892089844px; letter-spacing: -0.96px; line-height: 57.60000228881836px; }
+.node-1_114 { position: absolute; left: 31.500000000000114px; top: 251.5px; width: 330px; height: 118px; display: flex; flex-direction: column; }
+.node-1_115 { position: absolute; left: 0px; top: 0px; width: 330px; height: 59px; display: flex; flex-direction: row; gap: 10px; color: rgba(54, 51, 65, 1); font-size: 15px; font-weight: 500; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Medium; text-align: left; letter-spacing: -0.3px; line-height: 18px; padding-top: 20px; padding-right: 16px; padding-bottom: 20px; padding-left: 16px; border-radius: 8px 8px 0px 0px; border: 1px solid rgba(215, 215, 215, 1); }
+.node-1_116 { position: absolute; left: 16.187145233154297px; top: 22.15411376953125px; height: 16.58453369140625px; color: rgba(54, 51, 65, 1); font-size: 15px; font-weight: 500; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Medium; text-align: left; white-space: nowrap; min-width: 119.83517456054688px; letter-spacing: -0.3px; line-height: 18px; }
+.node-1_117 { position: absolute; left: 0px; top: 58px; width: 330px; height: 60px; display: flex; flex-direction: row; gap: 10px; color: rgba(192, 192, 192, 1); font-size: 15px; font-weight: 500; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Medium; text-align: left; letter-spacing: -0.3px; line-height: 18px; padding-top: 20px; padding-right: 16px; padding-bottom: 20px; padding-left: 16px; border-radius: 0px 0px 8px 8px; border: 1px solid rgba(215, 215, 215, 1); }
+.node-1_117::placeholder { color: rgba(192, 192, 192, 1); }
+.node-1_118 { position: absolute; left: 16.698509216308594px; top: 23.090911865234375px; height: 13.0902099609375px; color: rgba(192, 192, 192, 1); font-size: 15px; font-weight: 500; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Medium; text-align: left; white-space: nowrap; min-width: 67.66500854492188px; letter-spacing: -0.3px; line-height: 18px; }
+.node-1_120 { position: absolute; left: 23.000000000000114px; top: 380px; width: 361px; height: 46px; display: flex; flex-direction: column; gap: 8px; background-color: rgba(52, 199, 89, 1); color: rgba(255, 255, 255, 1); font-size: 15px; font-weight: 600; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Semi Bold; text-align: center; letter-spacing: -0.15px; line-height: 22px; border-radius: 62px; overflow: hidden; }
+.node-1_125 { position: absolute; left: 23.000000000000114px; top: 437px; width: 361px; height: 46px; display: flex; flex-direction: column; gap: 8px; background-color: rgba(53, 179, 207, 1); color: rgba(54, 51, 65, 1); font-size: 15px; font-weight: 600; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Semi Bold; text-align: center; letter-spacing: -0.15px; line-height: 22px; border-radius: 62px; overflow: hidden; }
+.node-1_127 { position: absolute; left: 149.16828918457043px; top: 495.5454406738281px; height: 14.261383056640625px; color: rgba(54, 51, 65, 1); font-size: 13px; font-weight: 500; font-family: "Inter", system-ui, -apple-system, sans-serif; font-style: Medium; text-align: center; white-space: nowrap; min-width: 100.65997314453125px; letter-spacing: -0.26px; line-height: 15.600000381469727px; }
